@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.spacer-white-50{
+    padding-top: 50px;
+}
+.spacer-black-50{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+  .wrapper{
+    background-color: #232b2b;
+    padding: 25px 10px;
+  }
+  
+}
+
+@import"./sass/header.scss";
+@import"./sass/main-hero-sec.scss";
+@import"./sass/description-section.scss";
+@import"./sass/block-col-two-img-section.scss";
+@import"./sass/share-section.scss";
+@import"./sass/block-3-col-blog.scss";
+@import"./sass/news-latter-section.scss";
+@import"./sass/footer.scss";

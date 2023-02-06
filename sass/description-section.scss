@@ -1,0 +1,61 @@
+.description-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    .description-sec-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: grid;
+        background-color: #232b2b;
+        padding: 50px 70px;
+        grid-template-columns: 1fr 1fr;
+        gap: 52px;
+        @media (max-width:991px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 50px 10px;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          
+            h1 {
+                font-family: "Courier New", Courier, monospace;
+                font-size: 40px;
+                color: aliceblue;
+                @media (max-width:768px) {
+                     font-size: 20px;
+                 }
+               
+            }
+            p{
+                font-family: "Courier New", Courier, monospace;
+                color: aliceblue;
+                @media (max-width:768px) {
+                    font-size: 10px;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            p{
+                font-family: "Courier New", Courier, monospace;
+                color: aliceblue;
+                @media (max-width:768px) {
+                    font-size: 10px;
+                }
+            }
+            span{
+                font-family: "Courier New", Courier, monospace;
+                color: aliceblue;
+                @media (max-width:768px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

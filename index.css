@@ -358,13 +358,15 @@ header .header-wrapper .navigation-bar nav :hover {
   gap: 10px;
 }
 .block-3-col-blogs .block-3-col-blogs-wrapper .part-1 img {
-  height: 50%;
+  height: 320px;
   width: 100%;
+  object-fit: cover;
 }
 .block-3-col-blogs .block-3-col-blogs-wrapper .part-1 .wrap {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  flex: 1;
 }
 .block-3-col-blogs .block-3-col-blogs-wrapper .part-1 .wrap h1 {
   font-family: "Courier New", Courier, monospace;
@@ -391,6 +393,11 @@ header .header-wrapper .navigation-bar nav :hover {
   .block-3-col-blogs .block-3-col-blogs-wrapper .part-1 .wrap p {
     font-size: 10px;
   }
+}
+.block-3-col-blogs .block-3-col-blogs-wrapper .part-1 .wrap .button {
+  display: flex;
+  flex: 1;
+  align-items: end;
 }
 .block-3-col-blogs .block-3-col-blogs-wrapper .part-1 .wrap .button button {
   padding: 15px 40px;

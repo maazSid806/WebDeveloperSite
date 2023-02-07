@@ -21,42 +21,48 @@
             flex-direction: column;
             gap: 10px;
             img {
-                height: 50%;
+                height: 320px;
                 width: 100%;
+                object-fit: cover;
             }
-            .wrap{
+            .wrap {
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
-                h1{
-                    font-family: 'Courier New', Courier, monospace;
+                flex: 1;
+
+                h1 {
+                    font-family: "Courier New", Courier, monospace;
                     font-size: 30px;
                     @media (max-width: 991px) {
-                      font-size: 20px;
+                        font-size: 20px;
                     }
                 }
-                h2{
-                    font-family: 'Courier New', Courier, monospace;
+                h2 {
+                    font-family: "Courier New", Courier, monospace;
                     font-size: 17px;
                     @media (max-width: 991px) {
                         font-size: 17px;
-                      }
+                    }
                 }
-                p{
-                    font-family: 'Courier New', Courier, monospace;
+                p {
+                    font-family: "Courier New", Courier, monospace;
                     @media (max-width: 991px) {
                         font-size: 10px;
-                      }
+                    }
                 }
-              .button{
-                button{
-                    padding: 15px 40px;
-                    @media (max-width: 991px) {
-                    padding: 10px 20px;
-                      }
-                   
+                .button {
+                    display: flex;
+                    flex: 1;
+                    align-items: end;
+                    button {
+                        padding: 15px 40px;
+
+                        @media (max-width: 991px) {
+                            padding: 10px 20px;
+                        }
+                    }
                 }
-              }
             }
         }
     }
